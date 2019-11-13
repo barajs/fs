@@ -1,10 +1,10 @@
 {
-  "name": "@barajs/loader",
+  "name": "@barajs/fs",
   "version": "0.0.0-development",
-  "description": "Bara file loader",
+  "description": "Bara file fs",
   "repository": {
     "type": "git",
-    "url": "git@github.com:barajs/pouchdb.git"
+    "url": "git@github.com:barajs/fs.git"
   },
   "publishConfig": {
     "access": "public"
@@ -41,7 +41,7 @@
     "@types/node": "12.12.7",
     "prettier": "1.18.2",
     "semantic-release": "15.13.28",
-    "ts-loader": "6.2.1",
+    "ts-fs": "6.2.1",
     "ts-node-dev": "1.0.0-pre.43",
     "typescript": "3.6.4",
     "webpack": "4.41.2",
