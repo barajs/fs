@@ -8,14 +8,6 @@ Easily load supported file type into JSON object.
 npm install --save @barajs/core @barajs/loader
 ```
 
-## Supported File Types
-
-- [x] JSON
-- [x] YAML
-- [ ] MD
-- [ ] INI
-- [ ] TOML
-
 ## API
 
 ### walk
