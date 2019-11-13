@@ -18,11 +18,11 @@ npm install --save @barajs/core @barajs/loader
 
 ## API
 
-### loadAsRaw
-Load file as content with encoding support.
+### walk
+List all absolute file paths in a directory.
 
-### loadAsYaml
-Load file as yaml.
+### readFile
+File file content at path.
 
-### loadAsYamlList
-Load multiple files as yaml array.
+### writeFile
+Write file content at path.
