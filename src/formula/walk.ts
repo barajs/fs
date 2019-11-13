@@ -43,3 +43,7 @@ export const walk = (pathFormula: Formula) => async (
   const path = await Promise.resolve(pathFormula(payload, ...rest))
   return await walkRecursive(path)
 }
+
+// walk((p) => p)(__dirname).then(data => {
+//   console.log(data)
+// })
